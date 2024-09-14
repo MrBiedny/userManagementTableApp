@@ -1,0 +1,21 @@
+.row {
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #f1f1f1;
+}
+
+.row td {
+  padding: 0.75rem;
+  border-bottom: 4px solid #fff;
+}
+
+@media (max-width: 640px) {
+  .row td {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid #fff;
+  }
+}

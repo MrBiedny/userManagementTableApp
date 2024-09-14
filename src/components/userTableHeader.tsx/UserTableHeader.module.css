@@ -1,0 +1,16 @@
+.header {
+  color: #fff;
+  font-weight: bold;
+}
+
+.header th {
+  padding: 1rem;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .header th {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+}

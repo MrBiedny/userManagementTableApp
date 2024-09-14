@@ -1,0 +1,27 @@
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  max-width: 1440px;
+  padding: 0 1rem;
+}
+
+.filterBar input {
+  border: 1px solid #1d61e1;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  flex: 1 1 calc(50% - 10px);
+  padding: 10px;
+}
+
+.filterBar input::placeholder {
+  color: #aaa;
+}
+
+@media (max-width: 640px) {
+  .filterBar input {
+    flex: 1 1 100%;
+  }
+}
